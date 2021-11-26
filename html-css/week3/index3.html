@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<base href="https://raw.githubusercontent.com/Nermin-y/hyf-homework/master/html-css/week3/index.html">
+		<title> HTML form</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+			  <img src="data:image/png;base64,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" alt="logo" class="image">
+		   </div> 
+		   <div class="navigation">
+		  <nav>
+				  <ul>
+				  <li><a href="">Home</a></li>
+				  <li><a href="">About</a></li>
+				  <li><a href="">Prices</a></li>
+				  </ul>
+			  </nav>
+		   </div> 
+		 </div>
+     </header>
+	 <main>
+
+	  <h1>Sign up to your customtailor.com</h1>
+
+	  <h2>Step 3/4 -Time to learn about your preferences?</h2>
+	  <h4>progress</h4>
+	</div>
+    <div class="progress">
+        <div class="progressBar">
+            <span class="text">
+             <div style="width:60%"></div>
+            </span>
+       </div>
+	</div>
+	<div>
+		<p>what kind items you intrested in offers on</p>
+	</div>
+
+	<div>
+		<ul class="column">
+			<li><input class="radio" type="checkbox" id="apparal" name="apparal" checked=""><label for="apparal">Apparal</label></li>
+			<li><input class="radio" type="checkbox" id="accessories" name="accessories" checked=""><label for="accessories">Accessories</label></li>
+			<li><input class="radio" type="checkbox" id="handbags" name="handbags"><label for="handbags">Handbags</label>
+			</li>
+			<li><input class="radio" type="checkbox" id="jewelry" name="jewelry" checked=""><label for="jewelry">Jewelry</label></li>
+			<li><input class="radio" type="checkbox" id="shoes" name="shoes" checked=""><label for="shoes">Shoes</label></li>
+		</ul>
+	</div>
+
+	<div class="image">
+		<label class="ss"> 
+			<img class="img" src="jo.jpg">
+			<span>Select</span>
+			<input type="checkbox" name="jewelry" value="1" checked="">
+			
+		  </label>
+		  <label class="ss"> 
+			<img class="img" src="jo.jpg">
+			<span>Select</span>
+			<input type="checkbox" name="jewelry" value="1" checked="">
+			
+		  </label>
+		</label>
+		<label class="ss"> 
+		  <img class="img" src="jo.jpg">
+		  <span>Select</span>
+		  <input type="checkbox" name="jewelry" value="1" checked="">
+		  
+		</label>
+		  <label class="ss"> 
+			<img class="img" src="hand.jpg">
+			<span>Select</span>
+			<input type="checkbox" name="jewelry" value="1" checked="">
+			
+		  </label>
+		  <label class="ss"> 
+			<img class="img" src="hand.jpg">
+			<span>Select</span>
+			<input type="checkbox" name="jewelry" value="1" checked="">
+			
+		  </label>
+		  <label class="ss"> 
+			<img class="img" src="hand.jpg">
+			<span>Select</span>
+			<input type="checkbox" name="jewelry" value="1" checked="">
+		  </label>
+		 
+		
+	 </div>
+   </form>
+   </main>
+  </body>
+</html>

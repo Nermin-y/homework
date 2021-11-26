@@ -1,0 +1,105 @@
+
+body{margin-left: 20px;margin-right: 20px;}
+.container{display: flex;flex-direction: row;justify-content: space-between;width: 100%;}
+nav li {padding: 10px;margin: 0px;
+  display: inline-block;}
+ .logo img{padding: 0px;margin: 0px;height: 60%;}
+ 
+main{margin-top: 100px;}
+
+h1{margin-top: 20px;}
+  h2{font-size: 30px;}
+h4{font-size: 20px;}
+
+
+p{align-items: center;font-size: 20px;}
+.progress {margin-top: 0;}
+
+ .text{position: relative; width: 100%;border: 2px;height: 30px; background-color: #ebecee;margin-top: 30px;display: block;border: 3px solid rgb(179, 177, 177);}
+.text div{position: absolute;height: 100%;top: 0;left: 0;background-color: rgb(182, 206, 252);}
+.chek{ display: inline-block;}
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 900px;
+  padding: 1em;}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;padding: 0;
+  width: 100px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 30px sans-serif; width: 300px; border: 3px solid #CCC;
+  
+}
+select, textarea {
+  font: 30px sans-serif; width: 300px; border: 3px solid #CCC; 
+}
+textarea {
+  vertical-align: top;display: inline-block;
+  width: 700px;
+  text-align: right;
+  height: 5em;
+}
+#Shipping address{font-size: 10px;}
+button{float: right; font-size: 20px;width: 250px;height: 80px;margin-right: 0px;margin-bottom: 10px;}
+.shipping{font-size: 20px;}
+ .box {font-size: 20px; vertical-align: top;display: inline-block;
+  width: 300px;text-align: left; height: 5em;margin-left: -3px;}
+  .form-check{margin-left: -80px;
+    margin-bottom: 20px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+.radio{width: 100px;
+  height: 16px;
+  margin: -8px 5px;
+  padding: 12px;}
+  .mon{margin: 10px; }
+  .adr{font: 30px sans-serif; width: 50px;  margin: 0 20px 0;;height: 1em;color: red;padding: 0;margin-left: -100px;}
+ .chek{display: inline-block;position: relative;padding: 0;}
+ .column{
+  columns: 2 10px;
+  font-size: 30px;padding: 20px;text-align: center;
+}
+.image{display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 3rem 3rem 3rem 3rem;
+}}
+.ss{ 
+  font-size: 30px;padding:60px;text-align: center;}
+.images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px 20px;
+}
+ 
+  @media screen and (max-width: 768px) {
+    artical { width:100%; }
+    form{width:100%;font-size: 20px;}
+    progress{width:100%}
+    progressBar{width:100%}
+    }
+}
+ li {
+  display: list-item;
+  text-align: -webkit-match-parent;margin-top: ;
+}
+radio{display: block;color: brown;}
